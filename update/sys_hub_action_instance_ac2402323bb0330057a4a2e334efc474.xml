@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="RetrieveWeather">6a32c6fe3b70330057a4a2e334efc4a6</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>6a32c6fe3b70330057a4a2e334efc4a6</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CalculateWeatherRisk">8b9182fe3b70330057a4a2e334efc46a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:14:58</sys_created_on>
+        <sys_id>ac2402323bb0330057a4a2e334efc474</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="k19_flow_api" source="sn_k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ac2402323bb0330057a4a2e334efc474</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:43:08</sys_updated_on>
+        <ui_id>c46b2a0d-d69c-4dc6-b405-b3886f736292</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ac2402323bb0330057a4a2e334efc474"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac2402323bb0330057a4a2e334efc474</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:14:59</sys_created_on>
+        <sys_id>642402323bb0330057a4a2e334efc487</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:14:59</sys_updated_on>
+        <value/>
+        <variable display_value="">9261cebe3b70330057a4a2e334efc41e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac2402323bb0330057a4a2e334efc474</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:15:01</sys_created_on>
+        <sys_id>c52442323bb0330057a4a2e334efc40b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:15:01</sys_updated_on>
+        <value/>
+        <variable display_value="">a232c6fe3b70330057a4a2e334efc4a9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ac2402323bb0330057a4a2e334efc474"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>time</field>
+        <id>ac2402323bb0330057a4a2e334efc474</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:15:01</sys_created_on>
+        <sys_id>452442323bb0330057a4a2e334efc40b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a32c6fe3b70330057a4a2e334efc4a6</table>
+        <value>{{subflow.time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>time</field>
+        <id>ac2402323bb0330057a4a2e334efc474</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:14:59</sys_created_on>
+        <sys_id>e02402323bb0330057a4a2e334efc487</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:14:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1cff35be3b70330057a4a2e334efc4e1</table>
+        <value>{{subflow.time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zip</field>
+        <id>ac2402323bb0330057a4a2e334efc474</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:14:59</sys_created_on>
+        <sys_id>202402323bb0330057a4a2e334efc487</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:14:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1cff35be3b70330057a4a2e334efc4e1</table>
+        <value>{{subflow.zip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zip</field>
+        <id>ac2402323bb0330057a4a2e334efc474</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:15:01</sys_created_on>
+        <sys_id>812442323bb0330057a4a2e334efc40b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a32c6fe3b70330057a4a2e334efc4a6</table>
+        <value>{{subflow.zip}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contractor Schedule" max_length="40" name="sn_k19_flow_api_contractor_schedule" type="collection">
+        <element label="Contractor" max_length="32" name="contractor" reference="sys_user" type="reference"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="sn_k19_flow_api_location" type="reference"/>
+        <element choice="1" label="Risk" max_length="40" name="risk" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" value="1"/>
+                <element inactive_on_update="false" label="Low" value="3"/>
+                <element inactive_on_update="false" label="Medium" value="2"/>
+            </choice>
+        </element>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="contractor"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

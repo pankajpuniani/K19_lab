@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="RetrieveWeather">6a32c6fe3b70330057a4a2e334efc4a6</action>
+        <cid>c25afb31-afee-4326-9fc3-f8f01c1e8448</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:06:40</sys_created_on>
+        <sys_id>32320afe3b70330057a4a2e334efc408</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="k19_flow_api" source="sn_k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_scope>
+        <sys_update_name>sys_hub_step_instance_32320afe3b70330057a4a2e334efc408</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:06:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=32320afe3b70330057a4a2e334efc408"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>32320afe3b70330057a4a2e334efc408</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:06:41</sys_created_on>
+        <sys_id>47320afe3b70330057a4a2e334efc42a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:06:41</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var response = inputs.rest_response;
+  var respObject = JSON.parse(response).result;
+  outputs.temperature_F = respObject.temperature_F;
+  outputs.chances_of_rain = respObject.chances_of_rain;
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>32320afe3b70330057a4a2e334efc408</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:06:41</sys_created_on>
+        <sys_id>83320afe3b70330057a4a2e334efc42a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:06:41</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=32320afe3b70330057a4a2e334efc408"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>32320afe3b70330057a4a2e334efc408</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:06:41</sys_created_on>
+        <sys_id>4f320afe3b70330057a4a2e334efc429</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:06:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_response</field>
+        <id>32320afe3b70330057a4a2e334efc408</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:06:41</sys_created_on>
+        <sys_id>cf320afe3b70330057a4a2e334efc42a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:06:41</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_32320afe3b70330057a4a2e334efc408</table>
+        <value>{{step[aa4dae4b-94da-45af-8f86-e838e8893517].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>32320afe3b70330057a4a2e334efc408</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:06:41</sys_created_on>
+        <sys_id>03320afe3b70330057a4a2e334efc42a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:06:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

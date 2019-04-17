@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e82402323bb0330057a4a2e334efc4ad</block>
+        <comment/>
+        <connected_to>47d2ee74-555b-455c-9db4-296ded7ef8b4</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="CalculateWeatherRisk">d92442323bb0330057a4a2e334efc460</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 20:15:03</sys_created_on>
+        <sys_id>7d2482323bb0330057a4a2e334efc449</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="k19_flow_api" source="sn_k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_7d2482323bb0330057a4a2e334efc449</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 20:15:03</sys_updated_on>
+        <ui_id>a98e1cb7-372c-4cef-9ed9-b6e9297fbf55</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7d2482323bb0330057a4a2e334efc449"/>
+</record_update>

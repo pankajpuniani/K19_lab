@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="risk" table="sn_k19_flow_api_contractor_schedule" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>sn_k19_flow_api_contractor_schedule</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-17 20:31:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ac742b23bb0330057a4a2e334efc458</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-17 20:31:20</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>sn_k19_flow_api_contractor_schedule</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-17 20:31:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69f782b23bb0330057a4a2e334efc42b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-17 20:31:49</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>sn_k19_flow_api_contractor_schedule</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-17 20:31:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fe742b23bb0330057a4a2e334efc46b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-17 20:31:41</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>risk</element>
+            <name>sn_k19_flow_api_contractor_schedule</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-17 20:31:04</sys_created_on>
+            <sys_id>98d742b23bb0330057a4a2e334efc428</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>risk</sys_name>
+            <sys_package display_value="k19_flow_api" source="sn_k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="k19_flow_api">bae571fa3b70330057a4a2e334efc427</sys_scope>
+            <sys_update_name>sys_choice_sn_k19_flow_api_contractor_schedule_risk</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-17 20:31:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
